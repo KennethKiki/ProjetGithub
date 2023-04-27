@@ -1,0 +1,129 @@
+/**********************************La navbar******************************/
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    
+}
+
+
+:root{
+    --text-color: #726b6bb6;
+    --main-color: rgb(29, 175, 41);
+}
+
+img{
+    height: 50px;
+}
+
+.logo{
+    margin-top: 5px;
+    margin-left: 2rem;
+}
+
+.house{
+    margin-top: 21px;
+    font-size: 20px;
+    font-family: cursive;
+    font-weight: bolder;
+    color: var(--main-color);
+}
+
+header{
+    height: 50px;
+    width: 100%;
+    display: flex;
+    
+}
+
+.navbar{
+    display: flex;
+    margin-top: 25px;
+    margin-left: 17rem;
+}
+
+.navbar a{
+    padding-left: 5rem; 
+    color: black;
+    font-size: 18px;
+    transition: all .50s ease;
+}
+
+.navbar a:hover{
+    color: var(--main-color); 
+}
+
+.navbar a.active{
+    color: var(--main-color);
+}
+
+
+
+/***********************La section juste après la navbar*************************/
+
+
+.texte{
+    
+    width: 600px;
+    height: 400px;
+    margin-left: 12rem;
+}
+
+.texte h2{
+    margin-top: 7rem;
+    font-size: 75px;
+    font-family:Arial, Helvetica, sans-serif;
+    color: rgb(124, 201, 47);
+} 
+
+.texte h3{
+    font-size: 45px;
+    font-family:Arial, Helvetica, sans-serif;
+    color: rgb(48, 46, 46);
+    
+} 
+
+.texte p{
+    margin-top: 30px;
+    font-size: 20px;
+    color: var(--text-color);
+}
+
+.button{
+    margin-top: 30px;
+    padding: 10px 25px 10px 25px;
+    border-radius: 20px;
+    border-color: var(--main-color);
+    background-color: var(--main-color);
+} 
+
+.button a{
+    color: white;
+} 
+
+.image img{
+    background-color: red;
+    width: 500px;
+    height: 500px;
+    margin-left: 45rem;
+    margin-top: -30rem;
+}
+
+.toggle{
+    display: none;
+}
+
+.toggle i{
+    font-size: 20px;
+}
+
+/* responsive */
+
+@media (max-width: 1305px ) {
+    .navbar a{
+        padding-left: 2rem; 
+        font-size: 18px;
+        margin-left: calc(50px - 100%);
+    }   
+}

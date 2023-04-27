@@ -1,0 +1,482 @@
+@media (max-width: 1100px) {
+    .toggle{
+        display: inline;
+    }
+
+    header nav{
+        display: none;
+    }   
+
+    .content{
+        height: 30rem;
+    }
+
+    .texte{
+        width: 400px;
+        height: 400px;
+    }
+
+    .texte h2{
+        font-size: 65px;
+    } 
+    
+    .texte h3{
+        font-size: 30px;
+        
+    } 
+    
+    .texte p{
+        font-size: 15px;
+    }
+
+    .button{
+        padding: 10px 15px 10px 15px;
+    } 
+
+    .image img{
+        width: 350px;
+        height: 350px;
+    }
+}
+
+@media (max-width: 1007px){
+    .content{
+        height: 27rem;
+    }
+
+    .contents{
+        margin-top: 30px;
+    }
+    .texte{
+        width: 400px;
+        height: 400px;
+    }
+
+    .texte h2{
+        font-size: 65px;
+    } 
+    
+    .texte h3{
+        font-size: 30px;
+        
+    } 
+    
+    .texte p{
+        font-size: 15px;
+    }
+
+    .button{
+        padding: 10px 10px 10px 10px;
+    } 
+
+    .image img{
+        width: 300px;
+        height: 300px;
+    }
+}
+
+@media (max-width: 976px) {
+    .transparence{
+        margin-right: 5rem;
+    }
+    
+    .madein{
+        margin-right: 5rem;
+    }
+
+    .gauche img{
+        width: 350px;
+        height: 250px;
+    }
+    
+    .droit{
+        width: 350px;
+        height: 250px;
+    }
+
+    .apropos p{
+        margin-top: 20px;
+    }
+    
+    .apropos p a{
+        padding: 8px 15px 8px 15px;
+    }
+}
+
+@media (max-width: 810px) {
+    .texte{
+        width: 350px;
+        height: 350px;
+    }
+
+    .texte h2{
+        font-size: 55px;
+    } 
+    
+    .texte h3{
+        font-size: 25px;
+        
+    } 
+    
+    .texte p{
+        font-size: 12px;
+    }
+
+    .button{
+        padding: 10px 10px 10px 10px;
+    } 
+
+    .image img{
+        width: 300px;
+        height: 300px;
+    }
+}
+
+@media (max-width: 766px){
+    .transparence{
+        margin-right: 3rem;
+    }
+    
+    .madein{
+        margin-right: 3rem;
+    }
+
+    .gauche img{
+        width: 300px;
+        height: 250px;
+    }
+    
+    .droit{
+        width: 350px;
+        height: 250px;
+    }
+
+    .apropos h4{
+        font-size: 10px;
+    }
+
+    .card{ 
+        width: 1000px;
+        height: 300px;
+        margin: 0 10px;
+    }
+
+}
+
+@media (max-width: 765px){
+    .content{
+        height: 53rem;
+        width: 100%;     
+    }
+
+    .contents{
+        display: inline-block;
+    }
+
+    .texte{
+        width: 100%;
+        height: 200px;
+        padding-left: 95px;
+    }
+
+    .texte h2{
+        font-size: 75px;
+    } 
+
+    .texte h3{
+        font-size: 45px;
+        
+    } 
+    
+    .texte p{
+        margin-top: 30px;
+        font-size: 20px;
+    }
+
+    .image img{
+        width: 400px;
+        height: 400px;
+        margin-top: 10rem;
+    }
+
+    .services{
+        height: 800px;
+    }
+
+    .service{
+        display: inline-block;
+        margin-left: 25px;
+    }
+
+    .transparence{
+        width: 400px;
+        height: 200px;
+        margin-bottom: 30px;
+    }
+
+    .madein{
+        width: 400px;
+        height: 200px;
+        margin-bottom: 30px;
+    }
+
+    .etude{
+        width: 400px;
+        height: 200px;
+    }
+
+    .apropos{
+        height: 650px;
+    }
+
+    .cadreabout{
+        display: inline-block;
+        margin-left: 25px;
+    }
+
+    .gauche img{
+        width: 450px;
+        height: 250px;
+        
+    }
+    
+    .droit{
+        width: 450px;
+        height: 250px;
+        margin-top: 20px;
+    }
+
+    .row{
+        display: inline-block;
+    }
+
+    .card{ 
+        width: 250px;
+        height: 280px;
+        margin-top: 20px;
+    }
+
+    .nosmaisons{
+        height: 70rem;
+        width: 100%;
+       
+    }
+
+    @media (max-width: 670px) {
+        .texte{
+            padding-left: 110px;
+        }
+
+        .texte h2{
+            font-size: 65px;
+        } 
+    
+        .texte h3{
+            font-size: 40px;
+            
+        } 
+        
+        .texte p{
+            margin-top: 30px;
+            font-size: 15px;
+        }
+    
+        .image img{
+            width: 370px;
+            height: 400px;
+            margin-top: 8rem;
+            margin-left: 50px;
+        }
+    }
+}
+
+@media (max-width: 577px) {
+    .content{
+        height: 45rem;
+        width: 100%;     
+    }
+   
+    .texte{
+        padding-left: 70px;
+    }
+
+    .texte h2{
+        font-size: 60px;
+    } 
+
+    .texte h3{
+        font-size: 30px;
+        
+    } 
+    
+    .texte p{
+        font-size: 12px;
+    }
+
+    .image img{
+        width: 400px;
+        height: 280px;
+    }
+}
+
+@media (max-width: 565px) {
+    .nosmaisons{
+        height: 125rem;   
+    }
+
+    .row{
+        margin-top: 20px;
+    }
+
+    .card{ 
+        width: 400px;
+        height: 280px;
+    }
+
+    
+}
+
+@media (max-width: 525px) {
+    .image img{
+        width: 280px;
+        height: 280px;
+    }
+
+    .transparence{
+        width: 300px;
+    }
+
+    .madein{
+        width: 300px;
+    }
+
+    .etude{
+        width: 300px;
+    }
+
+    .cadreabout{
+        margin-top: 30px;
+        margin-left: 50px;
+    }
+
+    .apropos h4{
+        display: none;
+    }
+
+    .gauche img{
+        width: 330px;
+        height: 250px;
+        
+    }
+    
+    .droit{
+        width: 330px;
+        height: 250px;
+    }
+
+}
+
+@media (max-width: 430px) {
+    .nosmaisons{
+        height: 115rem;
+    }
+
+    .texte{
+        padding-left: 35px;
+    }
+
+    .texte h2{
+        font-size: 50px;
+    } 
+
+    .texte h3{
+        font-size: 25px;
+        
+    } 
+    
+    .texte p{
+        font-size: 10px;
+    }
+    .image img{
+        margin-left: 0;
+        width: 240px;
+        height: 240px;
+        margin-top: 1rem;
+    }
+
+
+    .card{ 
+        width: 250px;
+        height: 250px;
+    }
+
+    .gauche img{
+        width: 230px;
+        height: 230px;
+        
+    }
+    
+    .droit{
+        width: 230px;
+        height: 230px;
+    }
+
+    .apropos{
+        height: 680px;
+    }
+
+    .transparence{
+        width: 200px;
+        margin-left: 25px;
+    }
+
+    .madein{
+        width: 200px;
+        margin-left: 25px;
+    }
+
+    .etude{
+        width: 200px;
+        margin-left: 25px;
+    }
+
+    .footer h4{
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 359px) {
+    header .logo a img{
+        height: 35px;
+    }
+    
+    header .logo a p{
+        font-size: 15px;
+    }
+
+   .services{
+    height: 840px;
+   }
+
+   .apropos{
+    padding-top: 55px;
+   }
+
+   .nosmaisons{
+    padding-top: 60px;
+   }
+    
+}
+
+@media (max-width: 320px) {
+    .texte{
+        padding-left: 20px;
+    }
+}
+
+@media (max-width: 310px) {
+    .texte{
+        padding-left: 10px;
+    }
+  
+}

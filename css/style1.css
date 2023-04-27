@@ -1,0 +1,142 @@
+/*************************La section Apropos*****************************/
+.services{
+    height: 400px;
+    width: 100%;
+    background-color: rgb(235, 235, 235);
+    text-align: center;
+}
+
+.services h2{
+    margin-top: 2.5rem;
+}
+
+.service{
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    margin-top: 4rem; 
+}
+
+.service p{
+    margin-top: 1.2rem; 
+}
+
+.service p a{
+    padding: 8px 25px 8px 25px;
+    border-radius: 20px;
+    color: white;
+    background-color: var(--main-color);
+}
+
+.transparence{
+    margin-right: 10rem;
+    background-color: white;
+    width: 200px;
+    height: 200px;
+    transition: all .50s ease;
+}
+
+.transparence:hover{
+    background-color: rgb(31, 138, 180);
+    color: white;
+}
+
+.transparence .img1{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border-color: rgb(226, 226, 226);
+    border-style: solid;
+} 
+
+
+.madein{
+    margin-right: 10rem;
+    background-color: white;
+    width: 200px;
+    height: 200px;
+    transition: all .50s ease;
+}
+
+.madein:hover{
+    background-color: rgb(31, 138, 180);
+    color: white;
+}
+
+.madein .img2{
+    width: 75px;
+    height: 78px;
+    border-radius: 50%;
+    border-color: rgb(226, 226, 226);
+    border-style: solid;
+} 
+
+.etude{
+    background-color: white;
+    width: 200px;
+    height: 200px;
+    transition: all .50s ease;
+}
+
+.etude:hover{
+    background-color: rgb(31, 138, 180);
+    color: white;
+}
+
+.etude .img3{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border-color: rgb(226, 226, 226);
+    border-style: solid;
+} 
+
+
+/**************************La section A propos*****************************/
+
+.apropos{
+    height: 450px;
+    width: 100%;
+    text-align: center;
+    padding-top: 40px;
+}
+
+.apropos h2{
+    text-decoration: underline;
+    text-decoration-color: var(--main-color);
+}
+
+.apropos p{
+    margin-top: 35px;
+}
+
+.apropos p a{
+    padding: 8px 25px 8px 25px;
+    border-radius: 20px;
+    color: white;
+    background-color: var(--main-color);
+}
+
+.cadreabout{
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    margin-top: 4rem; 
+}
+
+.gauche img{
+    margin-right: 3rem;
+    width: 450px;
+    height: 250px;
+}
+
+
+.droit{
+    justify-content: left;
+    text-align: left;
+    width: 450px;
+    height: 250px;
+}
+

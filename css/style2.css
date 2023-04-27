@@ -1,0 +1,369 @@
+/***********************Navbar********************/
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+:root{
+    --text-color: #726b6bb6;
+    --main-color: rgb(29, 175, 41);
+    --content-color: rgb(235, 235, 235);
+}
+
+header{
+    display: flex;
+    align-items: center;
+    padding: 5px 30px 5px 50px;
+    justify-content: space-between;
+}
+
+header .logo a{
+    display: flex;
+    align-items: center;
+}
+
+header .logo a img{
+    height: 50px;
+}
+
+header .logo a p{
+    font-family: cursive;
+    font-weight: bolder;
+    font-size: 20px;
+    color: var(--main-color);
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+}
+
+nav ul li ,i{
+    margin: 0 2rem;
+}
+
+nav ul li a{
+    color: black;
+    transition: all .50s ease;
+}
+
+nav ul li a:hover{
+    color: var(--main-color);
+}
+
+.active{
+    color: var(--main-color);
+}
+
+.menu{
+    position: fixed;
+    top: 50px;
+    right: -100%;
+    background-color: var(--main-color);
+    min-height: 100vh;
+    width: 250px;
+    transition: all 0.5s ease-in-out;
+}
+
+.menu nav ul{
+    display: inline-block;
+    width: 100%;
+}
+
+.menu nav ul li{
+    margin: 2px 0;
+    padding: 25px 10px;
+    box-sizing: border-box;
+}
+
+.menu nav ul li a{
+    color: white;
+}
+
+.menu nav ul li:hover{
+    background-color: rgb(22, 75, 27);
+    width: 100%;
+}
+
+.toggle, .close{
+    font-size: 20px;
+    color: black;
+    display: none;
+    cursor: pointer;
+}
+
+.activeMenu{
+    right: 0;
+}
+
+
+/*************Section content***********/
+
+.content{
+    height: 35rem;
+    width: 100%;
+}
+
+.contents{
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    display: flex;
+}
+
+.texte{
+    width: 500px;
+    height: 400px;
+    text-align: left;
+}
+
+.texte h2{
+    margin-top: 2rem;
+    font-size: 80px;
+    font-family:Arial, Helvetica, sans-serif;
+    color: var(--main-color);
+} 
+
+.texte h3{
+    font-size: 45px;
+    font-family:Arial, Helvetica, sans-serif;
+    color: rgb(48, 46, 46);
+    
+} 
+
+.texte p{
+    margin-top: 30px;
+    font-size: 20px;
+    color: var(--text-color);
+}
+
+.button{
+    margin-top: 30px;
+    padding: 10px 25px 10px 25px;
+    border-radius: 20px;
+    border-color: var(--main-color);
+    background-color: var(--main-color);
+} 
+
+.button a{
+    color: white;
+} 
+
+.image img{
+    width: 500px;
+    height: 400px;
+    margin-top: 50px;
+}
+
+
+
+/****************La section Nos services*****************************/
+.services{
+    padding-top: 40px;
+    height: 400px;
+    width: 100%;
+    background-color: var(--content-color);
+    text-align: center;
+}
+
+.services h2{
+    text-decoration: underline;
+    text-decoration-color: var(--main-color);
+}
+
+.service{
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    margin-top: 4rem; 
+}
+
+.service p{
+    margin-top: 1.2rem; 
+}
+
+
+.transparence{
+    margin-right: 10rem;
+    background-color: white;
+    width: 200px;
+    height: 200px;
+    transition: all .50s ease;
+}
+
+.transparence:hover{
+    background-color: var(--main-color);
+    color: white;
+}
+
+.transparence .img1{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-top: 20px;
+    border: 2px solid black;
+} 
+
+
+.madein{
+    margin-right: 10rem;
+    background-color: white;
+    width: 200px;
+    height: 200px;
+    transition: all .50s ease;
+}
+
+.madein:hover{
+    background-color: var(--main-color);
+    color: white;
+}
+
+.madein .img2{
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    margin-top: 20px;
+} 
+
+.etude{
+    background-color: white;
+    width: 200px;
+    height: 200px;
+    transition: all .50s ease;
+}
+
+.etude:hover{
+    background-color: var(--main-color);
+    color: white;
+}
+
+.etude .img3{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-top: 20px;
+    border: 2px solid black;
+} 
+
+
+/**************************La section A propos*****************************/
+
+.apropos{
+    height: 450px;
+    width: 100%;
+    text-align: center;
+    padding-top: 40px;
+}
+
+.apropos h2{
+    text-decoration: underline;
+    text-decoration-color: var(--main-color);
+}
+
+.apropos h4{
+    margin-top: 25px;
+}
+
+.apropos p{
+    margin-top: 35px;
+}
+
+.apropos p a{
+    padding: 8px 25px 8px 25px;
+    border-radius: 20px;
+    color: white;
+    background-color: var(--main-color);
+}
+
+.cadreabout{
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    margin-top: 4rem; 
+}
+
+.gauche img{
+    margin-right: 3rem;
+    width: 450px;
+    height: 250px;
+}
+
+
+.droit{
+    justify-content: left;
+    text-align: left;
+    width: 450px;
+    height: 250px;
+}
+
+
+/***************Nos maisons******************/
+
+.nosmaisons{
+    height: 850px;
+    width: 100%;
+    padding-top: 40px;
+    text-align: center;
+    background-color: var(--content-color);
+}
+
+.nosmaisons h2{
+    text-decoration: underline;
+    text-decoration-color: var(--main-color);
+}
+
+.nosmaisons p a{
+    padding: 8px 25px 8px 25px;
+    border-radius: 20px;
+    color: white;
+    background-color: var(--main-color);
+}
+
+.nosmaisons p{
+    margin-top: 30px;
+}
+
+.row{
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    margin-top: 4rem; 
+}
+
+.card{ 
+    width: 350px;
+    height: 300px;
+    margin: 0 20px;
+    background-color: white;
+}
+
+.card:hover{
+    box-shadow: 0px 20px 40px black;
+    transition: all .3s ease-in-out;
+}
+
+.card img{
+    width: 100%;
+    height: 75%;
+}
+
+.card-footer{
+    height: 100px;
+    width: 100%;
+    margin-top: 20px;
+    background-color: transparent;
+}
+
+.footer{
+    height: 30px;
+    width: 100%;
+    padding-top: 20px;
+    text-align: center;
+    background-color: var(--main-color);
+}
+
